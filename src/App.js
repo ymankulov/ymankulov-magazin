@@ -21,7 +21,7 @@ function App() {
             <Route path='/contactUs' element={<ContactUs/>}/>
             <Route path='/basket' element={<Basket/>}/>
             <Route path='/wishList' element={<WishList/>}/>
-            {/*<Route path='/products/products-info/:id' element={<SingleItem/>}/>*/}
+            <Route path='/products/products-info/:id' element={<SingleItem/>}/>
         </Routes>
     </div>
   );

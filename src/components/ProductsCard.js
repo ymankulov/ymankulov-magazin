@@ -40,9 +40,9 @@ const ProductsCard = ({el}) => {
 
             <div className="col-4">
                 <div className='products--character'>
-                    <NavLink to={`/products/products-info/${el.id}`}>
+
                         <img className='products--character--image' src={el.image} alt=""/>
-                    </NavLink>
+
                     <div className='products--info'>
                         <div className='products--info--items'>
                             <h2 className='product--info__title'>{el.title}</h2>
